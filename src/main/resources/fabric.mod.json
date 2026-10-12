@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "tf2-minecraft-mashup",
+  "version": "${version}",
+  "name": "TF2 Minecraft Mashup",
+  "description": "Play as all 9 TF2 mercs in Minecraft survival and co-op worlds.",
+  "authors": [
+    "inked-crtl-alt-delete"
+  ],
+  "contact": {
+    "homepage": "https://github.com/inked-crtl-alt-delete/tf2-minecraft-mashup"
+  },
+  "license": "CC BY-NC-SA 4.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.inkedcrtlaltdelete.tf2minecraft.TF2MinecraftMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "fabric-api": "*"
+  }
+}
