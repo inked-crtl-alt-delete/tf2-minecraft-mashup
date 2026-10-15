@@ -15,6 +15,9 @@
   "entrypoints": {
     "main": [
       "com.inkedcrtlaltdelete.tf2minecraft.TF2MinecraftMod"
+    ],
+    "client": [
+      "com.inkedcrtlaltdelete.tf2minecraft.client.TF2ClientMod"
     ]
   },
   "depends": {
